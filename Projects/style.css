@@ -1,0 +1,37 @@
+.main ul li {
+  width: 90vmin;
+  background-color: #22181c;
+  box-shadow: 0px 6px 45px 5px rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3rem;
+  padding: 0 1rem;
+
+  span {
+    font-weight: bold;
+  }
+}
+
+.footer {
+  p {
+    text-align: center;
+    color: #fff;
+    margin: 0;
+  }
+
+  a {
+    color: #fff;
+    transition: all 200ms;
+    &:hover {
+      color: gray;
+    }
+  }
+
+  .social {
+    display: flex;
+    gap: 1.5rem;
+    font-size: 1.2rem;
+    justify-content: center;
+  }
+}
