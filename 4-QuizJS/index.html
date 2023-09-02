@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,700;1,200;1,900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Quiz Web JS</title>
+  </head>
+  <body onload="startTime()">
+    <header>
+      <h1>Quiz JavaScript</h1>
+      <h2 id="contador">00:00</h2>
+      <audio id="sound" src="./achive-sound-132273.mp3"></audio>
+    </header>
+    <main>
+      <div class="contenedor">
+        <form id="form">
+          <label for="answer1">¿Cuál es el río más largo del mundo?</label>
+          <input type="text" id="answer1" />
+          <label for="answer2">¿Quién pintó la famosa obra "La noche estrellada"?</label>
+          <input type="text" id="answer2" />
+          <label for="answer3">¿Cuál es el país más poblado del mundo?</label>
+          <input type="text" id="answer3" />
+          <label for="answer4">¿Quién escribió la novela "1984"?</label>
+          <input type="text" id="answer4" />
+          <label for="answer5">¿Qué animal es el más rápido en tierra?</label>
+          <input type="text" id="answer5" />
+        </form>
+        <div class="butttons">
+          <button onclick="send()" type="submit">¡Hecho!</button>
+          <button onclick="reset()" type="submit">Intentar nuevamente</button>
+        </div>
+      </div>
+    </main>
+    <script src="./app.js"></script>
+  </body>
+</html>

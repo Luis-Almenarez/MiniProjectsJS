@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./app.js" defer></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Temporizador JS</title>
+  </head>
+  <body class="bg-slate-800">
+    <div class="h-screen flex flex-col justify-center items-center gap-10">
+      <h1 class="text-center text-3xl text-white font-bold uppercase">Probando Temporizador con JS</h1>
+      <button onclick="time()" class="bg-purple-600 w-20 hover:bg-purple-900 text-white font-bold py-2 px-4 rounded">Send</button>
+      <p class="text-2xl font-bold" id="parrafo"></p>
+      <button onclick="reset()" id="button1" class="hidden bg-purple-600 w-20 hover:bg-purple-900 text-white font-bold py-2 px-4 rounded">Reset</button>
+    </div>
+  </body>
+</html>
