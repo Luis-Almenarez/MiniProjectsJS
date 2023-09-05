@@ -1,6 +1,6 @@
 # Mini Proyectos.
 
-En esta ocasión realicé una serie de proyectos de practica con HTML, un poco de CSS y en su mayoría TailwindCSS y JavaScript.
+En esta ocasión me encuentro realizando una serie de proyectos de practica con HTML, un poco de CSS y en su mayoría TailwindCSS y JavaScript.
 ## Tecnologías Utilizadas
 
 ![HTML](https://img.shields.io/badge/-HTML-ff4500?style=flat&logo=html5&logoColor=white)
@@ -28,7 +28,7 @@ Puedes ver una vista previa en vivo de la landing page [aquí](https://mini-proj
 <hr>
 
 
-![Captura de pantalla 2023-09-03 a las 09 47 46](https://github.com/Luis-Almenarez/MiniProjectsJS/assets/125621759/c66934de-f0da-4f2b-be85-bb54491d8b97)
+![Captura de pantalla 2023-09-04 a las 19 36 06](https://github.com/Luis-Almenarez/MiniProjectsJS/assets/125621759/737595da-16e6-44ff-9bac-1cb25e2812b0)
 
 
 
