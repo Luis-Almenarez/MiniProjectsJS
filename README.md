@@ -18,7 +18,7 @@ En esta ocasión me encuentro realizando una serie de proyectos de practica con 
 
 ## Características Destacadas
 
-- Utilización de JavasCript para generar dinámicamente las imágenes de la galería.
+- Utilización de JavasCript y TailwindCSS para realizar todos los mini proyectos.
 
 ## Vista Previa
 
